@@ -25,4 +25,4 @@
 ```text
 对于自增主键，在insert/inertSelective的mapper文件中添加主键id的返回
 ```
-
+>> ps:mysql中，对于自增主键，如果是InnoDB引擎的表，只能是单一主键，无法设置联合主键，所以此处只对InnoDB的自增主键有效
